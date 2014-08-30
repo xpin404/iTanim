@@ -1,0 +1,420 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="252dp"
+        android:layout_weight="0.60" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/TextView07"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Key Check 3"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#D8011D"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:gravity=""
+                android:text="Practice synchronous planting after a fallow period."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TextView06"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Assessment of Key Check:"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/ImageView01"
+                android:layout_width="match_parent"
+                android:layout_height="175dp"
+                android:layout_weight="1"
+                android:paddingBottom="15dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/crop1" />
+
+            <TextView
+                android:id="@+id/TextView04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Importance:"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TextView03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="Synchronous planting within one month avoids the overlapping incidence of insect and disease populations. A fallow period of at least one month breaks the insect pest cycle and destroys disease hosts. This scheme is largely affected by the availability of irrigation water in the locality."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Recommendations to achieve Key Check:"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="•	Allows a fallow period of at least a month from harvest to establishment of the next crop. This can break the pest cycle and facilitate the success of crop management practices."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/TextView08"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="•	Follow the local planting calendar. This maximizes the use of irrigation within the community."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/TextView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="Key Check 4"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#D8011D"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TextView09"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:text="Sufficient number of healthy seedlings."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TextView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Assessment of Key Check:"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TextView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="•	Transplanted rice (TPR). Seed rate is 20 to 40 kg/ha for inbred and 15 to 20 kg/ha for hybrid. After replanting missing hills within 7 days after transplanting (DAT), assess the health status of seedlings at 10 DAT. There should be at least 25 hills/m²."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/TextView05"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="Randomly select 3 sampling sites in a diagonal line across the field. The sampling sites should be at least 1 m from the edge of the field. Count the number of hills/m² using a 1 m x 1 m quadrat. Add the number of hills and divide the total by 3 to get the average number of hills/m²."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp" />
+
+            <ImageView
+                android:id="@+id/ImageView05"
+                android:layout_width="match_parent"
+                android:layout_height="175dp"
+                android:layout_weight="1"
+                android:paddingBottom="0dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/crops1" />
+
+            <TextView
+                android:id="@+id/TextView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingBottom="15dp"
+                android:text="Diagonal sampling for hill density across the field."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/TextView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="•	Direct wet-seeded rice (DSWR). Fifteen days after seeding (DAS) pre-germinated seeds, plant density should be at least 150 plants/m² for a rate of 40 kg seeds/ha. For a seed rate of 80 kg/ha, plant density should be at least 300 plants/m²."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/TextView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="To assess plant density, use 1m x 1 m quadrat (1 m²). Randomly select 3 sampling site or 1 m² quadrat should be at least 1 m from the edge of the field."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp" />
+
+            <ImageView
+                android:id="@+id/ImageView04"
+                android:layout_width="match_parent"
+                android:layout_height="175dp"
+                android:layout_weight="1"
+                android:paddingBottom="0dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/crops1" />
+
+            <TextView
+                android:id="@+id/TextView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingBottom="15dp"
+                android:text="Diagonal sampling for plant density across the field."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/TextView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="Count the number of plants/m² using a 1 m x 1 m quadrat. Add the number of plants and divide the total by 3 to get the average number of plants/m²."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/TextView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="In every parcel for TPR and DSWR, randomly select 10 hills. Each hill should have at least one healthy seedling. A healthy seedling is green, with good growth, and free from pest and disease."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/TextView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Importance:"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TextView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="Healthy seedlings can produce a good canopy and compete better against weeds."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/TextView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Recommendations to achieve Key Check:"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TextView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="•	Follow the recommendations below."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/TextView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingBottom="0dp"
+                android:text="Table 1. Recommended crop establishment practices for transplanted inbred and hybrid rice."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/ImageView03"
+                android:layout_width="match_parent"
+                android:layout_height="175dp"
+                android:layout_weight="1"
+                android:paddingBottom="0dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/crops2" />
+
+            <TextView
+                android:id="@+id/TextView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingBottom="15dp"
+                android:text="Note: Lower number of seedlings per hill is recommended for hybrid due to its high cost."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/TextView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="Sowing the right amount of seeds results in strong and healthy seedlings."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/TextView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="•	For Transplanted rice, establish seedbed near a water source and protect it from pests, particularly birds and rats. It should have a good drainage."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp" />
+
+            <ImageView
+                android:id="@+id/ImageView02"
+                android:layout_width="match_parent"
+                android:layout_height="175dp"
+                android:layout_weight="1"
+                android:paddingBottom="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/crop2" />
+
+            <TextView
+                android:id="@+id/TextView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="Proper water and pest management are important at this stage. If the germinated seeds are covered to deeply with water, this will result in weak seedlings with poor root growth because of lack of air in the soil. Birds and rats feed on seeds directly and pull up germinating seeds and so it is important to guard the seedbed against these pests."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/TextView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="•	Apply the organic materials before leveling the seedbed, for fine-textured soil, incorporate 10-15 bags organic material or 3-4 bags commercial organic fertilizer in a 400 m² seedbed before sowing the seeds."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/TextView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="Organic materials help loosen the soil. Thus, it makes pulling of seedlings easier and minimizes root damage. Use compost or any fully decomposed organic materials such as dried animal manure, carbonized rice hull, or rice straw."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/TextView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="For medium-textures soil, you may not apply organic materials."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/TextView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="•	For direct wet-seeded rice, the field is ready for seeding after land preparation and leveling as described in the recommendation for Key Check 2."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/TextView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="Pre-germinated seeds/seedlings should be protected from birds, rats, snails and weeds following the standard practices described in the pest management section. Broadcast pre-germinated seeds evenly onto the leveled field."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/TextView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="Sow extra pre-germinated seeds (1 kg) on the side of the field for replanting. Replant bare patches 7-10 DAS."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+

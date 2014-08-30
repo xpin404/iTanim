@@ -1,0 +1,152 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="0"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/TextView07"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="LEAF FEEDER"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#505050"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="5sp" >
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="Caseworm"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="152dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4.67"
+                android:text="Uod na nasa supot"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+           <ImageView
+               android:id="@+id/imageView1"
+               android:layout_width="match_parent"
+               android:layout_height="132dp"
+               android:background="#00000000"
+               android:scaleType="fitXY"
+               android:src="@drawable/caseworm" />
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="252dp"
+        android:layout_weight="0.60" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/TextView06"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Identifying Marks:"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TextView05"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="The adults are small, delicate, snowy white moths with pale brown or black spots on wings. Larvae are pale translucent freen, with a pale orange head. Moths are attracted to light traps, which also indicates whether there is pest activity in the area."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/TextView04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Where to Find?"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TextView03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="Caseworm is found in rainfed and wetland areas where standing water in the field is prerequisite for larval survival"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Damage:"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="The larva is the damagins stage. The larvae cut the tip of the leaves as though by scissors, to make floating cases. They use these cases as a reservoir of water for breathing, and to protect themselves against predators. Older plants are generally more tolerant to damage, and mature plants are sedom attacked. Suspectible growth stages are from seedling to tillering."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

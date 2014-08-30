@@ -1,0 +1,372 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/leaffolder" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:orientation="vertical"
+            android:padding="5sp" >
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="Harmful Organisms"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="252dp"
+        android:layout_weight="0.60" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/TextView03"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:paddingTop="10dp"
+                android:text="ROOT FEEDERS"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="35dp" >
+
+                <ImageButton
+                    android:id="@+id/imageButton01"
+                    android:layout_width="250dp"
+                    android:layout_height="65dp"
+                    android:onClick="viewmolecricket"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/molecricketbut" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:paddingTop="10dp"
+                android:text="LEAF FEEDERS"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="35dp" >
+
+                <ImageButton
+                    android:id="@+id/ImageButton04"
+                    android:layout_width="250dp"
+                    android:layout_height="65dp"
+                    android:onClick="viewleaffolder"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/leaffolderbut"
+                    android:text="Leaffolder" />
+
+                <ImageButton
+                    android:id="@+id/ImageButton03"
+                    android:layout_width="250dp"
+                    android:layout_height="65dp"
+                    android:onClick="viewcaseworm"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/caswormbut"
+                    android:text="Caseworm" />
+
+                <ImageButton
+                    android:id="@+id/ImageButton02"
+                    android:layout_width="250dp"
+                    android:layout_height="65dp"
+                    android:onClick="viewgrasshopper"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/grasshopperbut"
+                    android:text="Grasshopper/Locust" />
+
+                <ImageButton
+                    android:id="@+id/Imagebutton1"
+                    android:layout_width="250dp"
+                    android:layout_height="65dp"
+                    android:onClick="viewarmyworm"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/armywormbut"
+                    android:text="Armyworm/Cutworm/Gabi Catterpillar" />
+
+                <ImageButton
+                    android:id="@+id/ImageButton05"
+                    android:layout_width="250dp"
+                    android:layout_height="65dp"
+                    android:onClick="viewwhorlmaggot"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/whorlmaggotbut"
+                    android:text="Whorl Maggot" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/TextView04"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:paddingTop="10dp"
+                android:text="STEM FEEDERS"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="35dp" >
+
+                <ImageButton
+                    android:id="@+id/ImageButton08"
+                    android:layout_width="250dp"
+                    android:layout_height="65dp"
+                    android:onClick="viewyellowstemborer"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ysbbut"
+                    android:text="Yellow Stem Borer" />
+
+                <ImageButton
+                    android:id="@+id/ImageButton09"
+                    android:layout_width="250dp"
+                    android:layout_height="65dp"
+                    android:onClick="viewwhitestemborer"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/wsbbut"
+                    android:text="White Stem Borer" />
+
+                <ImageButton
+                    android:id="@+id/ImageButton07"
+                    android:layout_width="250dp"
+                    android:layout_height="65dp"
+                    android:onClick="viewpinkstemborer"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/psbbut"
+                    android:text="Pink Stem Borer" />
+
+                <ImageButton
+                    android:id="@+id/ImageButton10"
+                    android:layout_width="250dp"
+                    android:layout_height="65dp"
+                    android:onClick="viewstripestemborer"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ssbbut"
+                    android:text="Stripe Stem Borer" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/TextView05"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:paddingTop="10dp"
+                android:text="SAP FEEDERS"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="35dp" >
+
+                <ImageButton
+                    android:id="@+id/ImageButton11"
+                    android:layout_width="250dp"
+                    android:layout_height="65dp"
+                    android:onClick="viewbrownplanthopper"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/brownplanthopperbut"
+                    android:text="Brown Planthopper" />
+
+                <ImageButton
+                    android:id="@+id/ImageButton06"
+                    android:layout_width="250dp"
+                    android:layout_height="65dp"
+                    android:onClick="viewwhitebackedplanthopper"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/whitebackplanthopperbut"
+                    android:text="White-Back Planthopper" />
+
+                <ImageButton
+                    android:id="@+id/ImageButton12"
+                    android:layout_width="250dp"
+                    android:layout_height="65dp"
+                    android:onClick="viewgreenleafhopper"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/greenleafhopperbut"
+                    android:text="Green Leafhopper" />
+
+                <ImageButton
+                    android:id="@+id/ImageButton13"
+                    android:layout_width="250dp"
+                    android:layout_height="65dp"
+                    android:onClick="viewzigzagleafhopper"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/zigzagleafhopperbut"
+                    android:text="Zig-zag Leafhopper" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/TextView06"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:paddingTop="10dp"
+                android:text="GRAIN FEEDERS"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="35dp" >
+
+                <ImageButton
+                    android:id="@+id/ImageButton17"
+                    android:layout_width="250dp"
+                    android:layout_height="65dp"
+                    android:onClick="viewricebbug"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ricebugbut"
+                    android:text="Rice Bug" />
+
+                <ImageButton
+                    android:id="@+id/ImageButton14"
+                    android:layout_width="250dp"
+                    android:layout_height="65dp"
+                    android:onClick="viewblackbug"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/blackbugbut"
+                    android:text="Black Bug" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/TextView07"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:paddingTop="10dp"
+                android:text="ORGANISM WITHOUT BACKBONE"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="35dp" >
+
+                <ImageButton
+                    android:id="@+id/ImageButton15"
+                    android:layout_width="250dp"
+                    android:layout_height="65dp"
+                    android:onClick="viewgoldenapplesnail"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/goldenapplesnailbut"
+                    android:text="Golden Apple Snail" />
+
+                <ImageButton
+                    android:id="@+id/ImageButton16"
+                    android:layout_width="250dp"
+                    android:layout_height="65dp"
+                    android:onClick="viewearthworm"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/earthwormbut"
+                    android:text="Earthworm" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/TextView08"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:paddingTop="10dp"
+                android:text="ORGANISM WITH BACKBONE"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="35dp" >
+
+                <ImageButton
+                    android:id="@+id/ImageButton19"
+                    android:layout_width="250dp"
+                    android:layout_height="65dp"
+                    android:onClick="viewrat"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ratbut"
+                    android:text="Rat" />
+
+                <ImageButton
+                    android:id="@+id/ImageButton18"
+                    android:layout_width="250dp"
+                    android:layout_height="65dp"
+                    android:onClick="viewsparrow"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/sparrowbut"
+                    android:text="Sparrow" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

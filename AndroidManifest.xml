@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.agritechprototype"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" >
+ >
+        <activity
+            android:name="com.example.agritechprototype.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.InsectMenu"
+            android:label="@string/title_activity_insect_menu" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.InsectLangaw"
+            android:label="@string/title_activity_insect_langaw" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.InsectMoleCricket"
+            android:label="@string/title_activity_insect_mole_cricket" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.PlantDisorder"
+            android:label="@string/title_activity_plant_disorder" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.BacterialLeafBlight"
+            android:label="@string/title_activity_bacterial_leaf_blight" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.Leaffolder"
+            android:label="@string/title_activity_leaffolder" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.PalayCheck"
+            android:label="@string/title_activity_palay_check" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.LCCMenu"
+            android:label="@string/title_activity_lccmenu" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.InsectCaseworm"
+            android:label="@string/title_activity_insect_caseworm" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.InsectGrasshopper"
+            android:label="@string/title_activity_insect_grasshopper" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.InsectArmyworm"
+            android:label="@string/title_activity_insect_armyworm" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.InsectWhorlMaggot"
+            android:label="@string/title_activity_insect_whorl_maggot" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.InsectYellowStemBorer"
+            android:label="@string/title_activity_insect_yellow_stem_borer" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.InsectWhiteStemBorer"
+            android:label="@string/title_activity_insect_white_stem_borer" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.InsectPinkStemBorer"
+            android:label="@string/title_activity_insect_pink_stem_borer" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.InsectStripeStemBorer"
+            android:label="@string/title_activity_insect_stripe_stem_borer" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.InsectBrownPlanthopper"
+            android:label="@string/title_activity_insect_brown_planthopper" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.InsectWhiteBackedPlanthopper"
+            android:label="@string/title_activity_insect_white_backed_planthopper" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.InsectGreenLeafhopper"
+            android:label="@string/title_activity_insect_green_leafhopper" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.InsectZigzagLeafhopper"
+            android:label="@string/title_activity_insect_zigzag_leafhopper" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.InsectRiceBug"
+            android:label="@string/title_activity_insect_rice_bug" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.InsectBlackBug"
+            android:label="@string/title_activity_insect_black_bug" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.InsectGoldenAppleSnail"
+            android:label="@string/title_activity_insect_golden_apple_snail" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.InsectEarthworm"
+            android:label="@string/title_activity_insect_earthworm" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.InsectRat"
+            android:label="@string/title_activity_insect_rat" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.InsectSparrow"
+            android:label="@string/title_activity_insect_sparrow" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.InsectHelpful"
+            android:label="@string/title_activity_insect_helpful" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.InsectMirid"
+            android:label="@string/title_activity_insect_mirid" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.InsectGroundBeatle"
+            android:label="@string/title_activity_insect_ground_beatle" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.InsectLadyBeatle"
+            android:label="@string/title_activity_insect_lady_beatle" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.InsectDamselfly"
+            android:label="@string/title_activity_insect_damselfly" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.InsectDragonfly"
+            android:label="@string/title_activity_insect_dragonfly" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.InsectCricket"
+            android:label="@string/title_activity_insect_cricket" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.InsectLongHornedGrasshopper"
+            android:label="@string/title_activity_insect_long_horned_grasshopper" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.InsectSmallWasp"
+            android:label="@string/title_activity_insect_small_wasp" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.InsectBigWasp"
+            android:label="@string/title_activity_insect_big_wasp" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.InsectRippleBug"
+            android:label="@string/title_activity_insect_ripple_bug" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.InsectWolfSpider"
+            android:label="@string/title_activity_insect_wolf_spider" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.InsectLynxSpider"
+            android:label="@string/title_activity_insect_lynx_spider" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.InsectJumpingSpider"
+            android:label="@string/title_activity_insect_jumping_spider" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.DisorderBlast"
+            android:label="@string/title_activity_disorder_blast" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.DisorderSheathBlight"
+            android:label="@string/title_activity_disorder_sheath_blight" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.DisorderBrownSpot"
+            android:label="@string/title_activity_disorder_brown_spot" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.DisorderStemRot"
+            android:label="@string/title_activity_disorder_stem_rot" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.DisorderSheatRot"
+            android:label="@string/title_activity_disorder_sheat_rot" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.DisorderBacterialLeafBlight"
+            android:label="@string/title_activity_disorder_bacterial_leaf_blight" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.DisorderBacterialLeafStreak"
+            android:label="@string/title_activity_disorder_bacterial_leaf_streak" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.DisorderTungro"
+            android:label="@string/title_activity_disorder_tungro" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.DisorderGrassyAndRaggedStunt"
+            android:label="@string/title_activity_disorder_grassy_and_ragged_stunt" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.InsectLongJawedSpider"
+            android:label="@string/title_activity_insect_long_jawed_spider" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.PalayCheckSeed"
+            android:label="@string/title_activity_palay_check_seed" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.PalayCheckLand"
+            android:label="@string/title_activity_palay_check_land" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.PalayCheckCrop"
+            android:label="@string/title_activity_palay_check_crop" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.PalayCheckNutrients"
+            android:label="@string/title_activity_palay_check_nutrients" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.LCCWhyUseLCC"
+            android:label="@string/title_activity_lccwhy_use_lcc" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.LCCWhenToTake"
+            android:label="@string/title_activity_lccwhen_to_take" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.LCCCriticalValueToApply"
+            android:label="@string/title_activity_lcccritical_value_to_apply" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.LCCHowToUse"
+            android:label="@string/title_activity_lcchow_to_use" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.LCCLCC"
+            android:label="@string/title_activity_lcclcc" >
+        </activity>
+        <activity
+            android:name="com.example.agritechprototype.Reference"
+            android:label="@string/title_activity_reference" >
+        </activity>
+    </application>
+
+</manifest>

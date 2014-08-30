@@ -1,0 +1,297 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+               <ImageView
+                   android:id="@+id/imageView1"
+                   android:layout_width="50dp"
+                   android:layout_height="50dp"
+                   android:src="@drawable/dragonfly" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:orientation="vertical"
+            android:padding="5sp" >
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="Helpful Organisms"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="252dp"
+        android:layout_weight="0.60" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/TextView03"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:paddingTop="10dp"
+                android:text="AERIAL-BORNE INSECTS"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="35dp" >
+
+                <ImageButton
+                    android:id="@+id/ImageButton27"
+                    android:layout_width="250dp"
+                    android:layout_height="65dp"
+                    android:scaleType="fitXY"
+                    android:onClick="viewmirid"
+                    android:src="@drawable/miridbut"
+                    android:text="Mirid" />
+
+                <ImageButton
+                    android:id="@+id/ImageButton26"
+                    android:layout_width="250dp"
+                    android:layout_height="65dp"
+                    android:onClick="viewgroundbeetle"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/groundbeetlebut" />
+
+                <ImageButton
+                    android:id="@+id/ImageButton25"
+                    android:layout_width="250dp"
+                    android:layout_height="65dp"
+                    android:onClick="viewladybeetle"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ladybeetlebut" />
+
+                <ImageButton
+                    android:id="@+id/ImageButton24"
+                    android:layout_width="250dp"
+                    android:layout_height="65dp"
+                    android:onClick="damselfly"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/damselflybut" />
+
+                <ImageButton
+                    android:id="@+id/ImageButton23"
+                    android:layout_width="250dp"
+                    android:layout_height="65dp"
+                    android:onClick="viewdragonfly"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/dragonflybut" />
+
+                <ImageButton
+                    android:id="@+id/ImageButton22"
+                    android:layout_width="250dp"
+                    android:layout_height="65dp"
+                    android:onClick="viewcricket"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/cricketbut" />
+
+                <ImageButton
+                    android:id="@+id/ImageButton20"
+                    android:layout_width="250dp"
+                    android:layout_height="65dp"
+                    android:onClick="viewlonghornedgrasshopper"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/longhornedgrasshopperbut" />
+
+                <ImageButton
+                    android:id="@+id/ImageButton01"
+                    android:layout_width="250dp"
+                    android:layout_height="65dp"
+                    android:onClick="viesmallwasp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/smallwaspbut" />
+
+                <ImageButton
+                    android:id="@+id/ImageButton28"
+                    android:layout_width="250dp"
+                    android:layout_height="65dp"
+                    android:onClick="viewbigwasp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/bigwaspbut" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:paddingTop="10dp"
+                android:text="WATER-BORNE INSECT"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="35dp" >
+
+                <ImageButton
+                    android:id="@+id/ImageButton04"
+                    android:layout_width="250dp"
+                    android:layout_height="65dp"
+                    android:onClick="viewripplebug"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ripplebugbut" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/TextView04"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:paddingTop="10dp"
+                android:text="NON WEB-FORMING SPIDERS"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="35dp" >
+
+                <ImageButton
+                    android:id="@+id/ImageButton08"
+                    android:layout_width="250dp"
+                    android:layout_height="65dp"
+                    android:scaleType="fitXY"
+                    android:onClick="viewwolfspider"
+                    android:src="@drawable/wolfspiderbut" />
+
+                <ImageButton
+                    android:id="@+id/ImageButton09"
+                    android:layout_width="250dp"
+                    android:layout_height="65dp"
+                    android:scaleType="fitXY"
+                    android:onClick="viewlynxspider"
+                    android:src="@drawable/lynxspiderbut" />
+
+                <ImageButton
+                    android:id="@+id/ImageButton07"
+                    android:layout_width="250dp"
+                    android:layout_height="65dp"
+                    android:scaleType="fitXY"
+                    android:onClick="viewjumpingspider"
+                    android:src="@drawable/jumpingspidebut" />
+
+                <ImageButton
+                    android:id="@+id/ImageButton02"
+                    android:layout_width="250dp"
+                    android:layout_height="65dp"
+                    android:scaleType="fitXY"
+                    android:onClick="viewlongjawedspider"
+                    android:src="@drawable/longjwedspiderbut" />
+
+                <ImageButton
+                    android:id="@+id/ImageButton10"
+                    android:layout_width="250dp"
+                    android:layout_height="65dp"
+                    android:scaleType="fitXY"
+                    android:onClick="vieworbspider"
+                    android:src="@drawable/orbspidebut" />
+
+                <ImageButton
+                    android:id="@+id/ImageButton03"
+                    android:layout_width="250dp"
+                    android:layout_height="65dp"
+                    android:scaleType="fitXY"
+                    android:onClick="viewdwarfspider"
+                    android:src="@drawable/dwarfspiderbut" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/TextView05"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:paddingTop="10dp"
+                android:text="NON-INSECTS"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="35dp" >
+
+                <ImageButton
+                    android:id="@+id/ImageButton11"
+                    android:layout_width="250dp"
+                    android:layout_height="65dp"
+                    android:scaleType="fitXY"
+                    android:onClick="viewgreenfungus"
+                    android:src="@drawable/greenfungubut" />
+
+                <ImageButton
+                    android:id="@+id/ImageButton06"
+                    android:layout_width="250dp"
+                    android:layout_height="65dp"
+                    android:scaleType="fitXY"
+                    android:onClick="viewlightbrownishfungus"
+                    android:src="@drawable/lightbrownishfungusbut" />
+
+                <ImageButton
+                    android:id="@+id/ImageButton12"
+                    android:layout_width="250dp"
+                    android:layout_height="65dp"
+                    android:scaleType="fitXY"
+                    android:onClick="viewwhitefungus"
+                    android:src="@drawable/whitefungusbut" />
+
+                <ImageButton
+                    android:id="@+id/ImageButton13"
+                    android:layout_width="250dp"
+                    android:layout_height="65dp"
+                    android:scaleType="fitXY"
+                    android:onClick="viewvirusbut"
+                    android:src="@drawable/virusbut" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

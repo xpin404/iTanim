@@ -1,0 +1,422 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_weight="0"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/TextView07"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Key Check 5"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#D8011D"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="252dp"
+        android:layout_weight="0.60" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Sufficient nutrients from tillering to early panicle initiation and flowering."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TextView06"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="Assessment of Key Check:"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/ImageView01"
+                android:layout_width="match_parent"
+                android:layout_height="175dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:src="@drawable/nutrient1" />
+
+            <TextView
+                android:id="@+id/TextView05"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="•	From tillering to early panicle initiation (EPI) and flowering, apply N fertilizer (1.5 bags urea per hectare in dry season or 1.0 bag urea per hectare in wet season) if LCC reading is below 4 for transplanted and below 3 for direct wet-seeded rice."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/TextView09"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="•	Transplanted rice. At flowering, achieve at least 300 panicles/m². To assess panicle density, randomly select 3 sampling sites in a diagonal line across the field. The sampling sites should be at least 1 m from the edge of the field. Count the number of panicles using a 1 m x 1 m quadrat (1 m²). Add the number of panicles and divide the total by 3 to get the average number of panicles/m²."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/TextView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="•	Direct wet-seeded rice (DSWR). At flowering, achieve at least 350 panicles/m²."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/TextView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="To assess panicle density, randomly select 3 sampling sites in a diagonal line across the field. The sampling sites should be at least 1 m from the edge of the field. Count the number of panicles using a 1 m x 1 m quadrat (1 m²). Add the number of panicles and divide the total by 3 to get the average number of panicles/m²."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/TextView04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Importance:"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TextView03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="Sufficient nutrients from tillering to EPI, and flowering will ensure good crop growth, panicle development, and attainment of yield potential. The optimum panicle density could be associated with the attainment of yield potential."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Recommendations to achieve Key Check:"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="•	Know and manage the nitrogen needs of your plants based on LCC and assess other nutrients based on MOET or Nutrient Omission Plot (Box 3)."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TextView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="Proper management of nutrients improves crop growth and yield. It means giving the right kind and amount of nutrients at the right time. Rice plants grow and respond better to fertilizer when there is more sunlight."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp" />
+
+            <ImageView
+                android:id="@+id/ImageView03"
+                android:layout_width="match_parent"
+                android:layout_height="175dp"
+                android:layout_weight="1"
+                android:paddingBottom="15dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/land2" />
+
+            <TextView
+                android:id="@+id/TextView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="Conduct the Minus One Element Technique (MOET) test 30 days before transplanting or direct wet seeding and assess nutrient status based on visible plant nutrient deficiency symptoms and growth response (i.e., plant height and tiller number) but nit plant biomass."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/TextView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="Use the leaf color chart (LCC) every 7 days from early tillering to early flowering to assess the crop need for nitrogen (N) fertilizer. LCC and MOET are simple tools that can assess nutrient deficiency, guide fertilizer application, and generate savings in fertilizer use."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/TextView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="Aside from nutrient deficiency, consider mineral toxicity in deciding on the nutrients to apply. In the lowlands, iron toxicity is most common, especially where there is permanent flooding during crop growth. Iron toxicity-affected rice plants have tiny brown spots on the lower leaves starting from the tip or have orange-yellow to brown leaves."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/TextView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="To manage iron toxicity, use intermittent irrigation and avoid continuous flooding on poorly drained soils, balanced fertilizers, and perform dry tillage after harvest to increase iron oxidation during the fallow period."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/TextView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="•	Nitrogen. Use the LCC every 7 days from 14 days after trans-planting (DAT) or 21 days seeding (DAS) until early flowering. But if 14-14-14-12S is applied at 14 DAT or 21 DAS (Tables 2 and 3), LCC reading starts at 21 DAT or 28 DAS."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/TextView08"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="Nitrogen affects may processes contributing to yield. It increases plant height, tiller number, leaf size, spikelet number per panicle, percentage filled spikelets, and grain protein content. Thus, if N is deficient, plants become stunted and yellowish."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp" />
+
+            <ImageView
+                android:id="@+id/ImageView04"
+                android:layout_width="match_parent"
+                android:layout_height="175dp"
+                android:layout_weight="1"
+                android:paddingBottom="15dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/nutrient2" />
+
+            <TextView
+                android:id="@+id/TextView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="If there is too much N, particularly between panicle initiation and flowering, the rice plant becomes prone to lodging and pests. Excess N is also costly."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/TextView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="The LCC helps farmers determine the right time of N application by measuring the leaf color intensity. If more than 5 out of 10 leaves have readings below the critical value of 4, apply 1.5 bags of 46-0-0 (urea) or 3.5 bags of 21-0-0-24S (ammonium sulfate) during the DS and 1 bag of 46-0-0 or 2 bags of 21-0-0-24S during the WS."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/TextView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="Ammonium sulfate is used instead of urea when plant shows sulfur deficiency, or if sulfur containing fertilizer like 14-14-14-12S is not used."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp" />
+
+            <ImageView
+                android:id="@+id/ImageView02"
+                android:layout_width="match_parent"
+                android:layout_height="175dp"
+                android:layout_weight="1"
+                android:paddingBottom="15dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/land3" />
+
+            <ImageView
+                android:id="@+id/ImageView06"
+                android:layout_width="match_parent"
+                android:layout_height="175dp"
+                android:layout_weight="1"
+                android:paddingBottom="15dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/land3" />
+
+            <ImageView
+                android:id="@+id/ImageView05"
+                android:layout_width="match_parent"
+                android:layout_height="175dp"
+                android:layout_weight="1"
+                android:paddingBottom="15dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/land3" />
+
+            <TextView
+                android:id="@+id/TextView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="•	Phosphorous and potassium. Compound fertilizers, (i.e., 14-14-14-12S, 16-20-0) or single fertilizer (i.e., 0-18-0 or 0-0-60) can be used and dependent on cropping season, soil type, yield target, and market availability."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/TextView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="Phosphorus fertilizer is important for root development, tillering, early flowering, and ripening. Phosphorus-deficient plants are stunted with greatly reduced tillering."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/TextView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="Leaves are narrow, short, very erect, and dark green. Stems are thin and plant development is retarded. The number of leaves, panicles, and grains per panicle are also reduced."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/TextView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="Potassium improves root growth and plant vigor and helps prevent lodging. It also enhances crop resistance to pests and diseases. Potassium deficiency is often not detected because its symptoms are not as easy to recognize as those of N deficiency, and appear during the later growth stages."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/TextView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="Potassium deficient plants are dark green with yellowish brown leaf margins, i.e., similar to those of tungro disease but affecting whole field, not patches. Dark brown spots can also be seen on the leaf surface."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/TextView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="•	Sulfur. The amount of sulfur in 14-14-14-12S (with 12% sulfur) as recommended is adequate to correct usual sulfur deficiency."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/TextView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="Sulfur deficiency is often mistaken for nitrogen deficiency. Unlike N deficiency where older leaves are affected first, sulfur deficiency results in yellowing (chlorosis) of young leaves."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/TextView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="Other symptoms include yellowish seedlings in seedbed, high seedling mortality after transplanting, stunted growth (but plants are not dark colored as in P or K deficiency), reduced number, fewer and shorter panicles, reduced number of spikelets per panicle, and delayed maturity."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/TextView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="•	Zinc. Apply 25 kg zinc sulfate/ha at 14 DAT once a year during the DS."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/TextView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="Zinc deficiency is the most widespread micronutrient-related problem in rice. Its symptoms appear between 2-4 weeks after transplanting."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/TextView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="These include dusty brown spots on old leaves, yellowish young leaves at the base and midrib, stunted plants, uneven plant growth, and patches of poorly established hills in the field."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/TextView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="Rice plants, however, can recover from symptoms soon after the field is drained. Severe deficiency, on the other hand, results in reduced tiller number and delayed maturity."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+

@@ -1,0 +1,210 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/logo" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:orientation="vertical"
+            android:padding="5sp"
+            android:onClick="viewinsectmenu" >
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I.Tanim"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="152dp"
+                android:layout_height="wrap_content"
+                android:text="E-Guide to Farming"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#505050"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/imageButton1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="#00000000"
+                android:scaleType="fitXY"
+                android:src="@drawable/reference"
+                android:layout_gravity="center"
+                android:onClick="viewreference" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="252dp"
+        android:layout_weight="0.60" >
+       <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/ImageButton02"
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:layout_weight="1"
+            android:onClick="viewpalaycheck"
+            android:scaleType="fitXY"
+            android:src="@drawable/palaycheck" />
+
+        <Button
+            android:id="@+id/Button04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="viewpalaycheck"
+            android:text="PalayCheck                                                 (Guide to Farming)"
+            android:textColor="#505050" />
+ />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0" >
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:layout_weight="1"
+            android:onClick="viewinsectmenu"
+            android:scaleType="fitXY"
+            android:src="@drawable/leaffolder" />
+
+        <ImageButton
+            android:id="@+id/ImageButton04"
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:layout_weight="1"
+            android:onClick="viewhelpful"
+            android:scaleType="fitXY"
+            android:src="@drawable/dragonfly" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_weight="0" >
+
+        <Button
+            android:id="@+id/Button01"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="viewinsectmenu"
+            android:text="Harmful Organism"
+            android:textColor="#505050" />
+
+        <Button
+            android:id="@+id/Button03"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="viewhelpful"
+            android:text="Helpful Organism"
+            android:textColor="#505050" />
+            
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0" >
+
+        <ImageButton
+            android:id="@+id/ImageButton01"
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:layout_weight="1"
+            android:onClick="viewdisorder"
+            android:scaleType="fitXY"
+            android:src="@drawable/blast" />
+
+        <ImageButton
+            android:id="@+id/ImageButton05"
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/lcc"
+            android:onClick="viewlcc" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0" >
+
+        <Button
+            android:id="@+id/Button02"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="viewdisorder"
+            android:text="Plant Disorders"
+            android:textColor="#505050" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Leaf Color Chart"
+            android:textColor="#505050"
+            android:onClick="viewlcc"  />
+
+    </LinearLayout>
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>
